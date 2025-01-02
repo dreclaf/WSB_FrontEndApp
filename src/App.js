@@ -69,7 +69,7 @@ function App() {
         {selectedBreed && imageUrl && (
           <div style={{ position: "relative", display: "inline-block" }}>
             <img src={imageUrl} className='containerBreedsImage' />
-            <button className="containerBreedsButtonGallerySave" onClick={() => { saveToGallery(imageUrl, gallery, setGallery) }}>
+            <button id="containerBreedsImageButtonGallerySave" onClick={() => { saveToGallery(imageUrl, setGallery) }}>
               Save to gallery
             </button>
           </div>
