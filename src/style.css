@@ -6,7 +6,7 @@
     min-height: 97vh;
     /* background-color: red; */
     font-family: Ink Free, sans-serif;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/026/088/475/non_2x/seamless-pattern-of-award-symbol-icon-badge-with-dog-or-cat-paw-print-and-ribbons-pet-show-winner-concept-illustration-vector.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/023/595/non_2x/pet-footprints-horizontal-seamless-pattern-animal-print-gold-prints-of-tracks-of-a-cat-dog-on-a-black-background-pet-paw-print-silhouettes-cute-texture-vector.jpg");
   }
 
   body{
@@ -14,11 +14,11 @@
   }
   
   h1 {
-    color: #440606;
+    color: #ffffff;
     margin-bottom: 20px;
     font-size: 100px;
     font-weight: bold;
-    text-shadow: rgb(255, 255, 255) 1px 0 3px;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
     text-align: center;
   }
   
@@ -39,7 +39,7 @@
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #5c181e;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -78,7 +78,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #8f262f;
   }
   
   img {
@@ -92,6 +92,10 @@
     margin-top: 20px;
     color: #555;
   }
+  h3 {
+    
+    font-size: 32px;
+  }
   
 
   .gallery{
@@ -101,10 +105,14 @@
     align-items: center;
     overflow-y: auto;
     max-height: 600px;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: #fff;
   }
   .galleryImage{
+    align-items: center;
     max-width: 100px;
     max-height: 100px;
+    
   }
 
   .breeds{
