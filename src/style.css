@@ -1,41 +1,47 @@
-.container {
-    /* display: flex; */
+/* GLOBAL */
+body {
+    background: rgb(34, 32, 32);
+}
+
+/* IDs */
+#container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 97vh;
-    /* background-color: red; */
     font-family: Ink Free, sans-serif;
     background-image: url("https://static.vecteezy.com/system/resources/previews/007/023/595/non_2x/pet-footprints-horizontal-seamless-pattern-animal-print-gold-prints-of-tracks-of-a-cat-dog-on-a-black-background-pet-paw-print-silhouettes-cute-texture-vector.jpg");
-  }
+}
 
-  body{
-    background: rgb(34, 32, 32);
-  }
-  
-  h1 {
+#containerBreeds {
+    /* display: flex; */
+    text-align: center;
+    align-items: block;
+    justify-content: center;
+    float: left;
+    width: 89.7%;
+}
+#containerBreedsH1 {
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 100px;
     font-weight: bold;
     text-shadow: rgb(0, 0, 0) 1px 0 5px;
     text-align: center;
-  }
-  
-  select {
+}
+#containerBreedsSelect {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    background-color:lightgray;
+    background-color: lightgray;
     border-radius: 5px;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  
-  button {
+    margin-left: auto;
+    margin-right: auto;
+}
+#containerBreedsButtonGetImage {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
@@ -46,9 +52,8 @@
     transition: background-color 0.3s ease;
     display: block;
     margin: auto;
-  }
-  
-  .buttonGallerySave{
+}
+#containerBreedsImageButtonGallerySave {
     position: absolute;
     top: 20px;
     left: 0px;
@@ -59,8 +64,23 @@
     border-radius: 5px;
     cursor: pointer,
 
-  }
-  .buttonGalleryDelete{
+}
+
+#gallery {
+    margin-left: auto;
+    float: right;
+    width: 10%;
+    align-items: center;
+    overflow-y: auto;
+    max-height: 600px;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: #fff;
+}
+#galleryH3 {
+
+    font-size: 32px;
+}
+#galleryButtonDeleteImage {
     position: absolute;
     top: 20px;
     left: 86px;
@@ -70,60 +90,51 @@
     font-size: 6px;
     border-radius: 5px;
     cursor: pointer,
+}
 
-  }
-  .buttonGalleryDelete:hover{
+/* Classes */
+
+.containerBreedsImage {
+    max-height: 370px;
+}
+.galleryImage {
+    align-items: center;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+
+
+
+
+.buttonGalleryDelete:hover {
     background-color: rgb(243, 81, 81);
 
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #8f262f;
-  }
-  
-  img {
+}
+
+img {
     margin-top: 20px;
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
+}
+
+h2 {
     margin-top: 20px;
     color: #555;
-  }
-  h3 {
-    
-    font-size: 32px;
-  }
-  
+}
 
-  .gallery{
-    margin-left: auto;
-    float:right;
-    width: 10%;
-    align-items: center;
-    overflow-y: auto;
-    max-height: 600px;
-    text-shadow: rgb(0, 0, 0) 1px 0 5px;
-    color: #fff;
-  }
-  .galleryImage{
-    align-items: center;
-    max-width: 100px;
-    max-height: 100px;
-    
-  }
 
-  .breeds{
-    /* display: flex; */
-    text-align:center;
-    align-items: block;
-    justify-content: center;
-    float:left;
-    width: 89.7%;
-  }
 
-  .image{
-    max-height: 370px;
-  }
+
+
+
+
+
+
+

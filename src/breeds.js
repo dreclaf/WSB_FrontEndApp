@@ -1,4 +1,8 @@
 export async function fetchBreeds() {
+    /*  
+      Function responsible for fetching all breeds from dog.ceo API.
+      Results are provided as the array of Keys from JSON response.
+    */
     try {
       const response = await fetch('https://dog.ceo/api/breeds/list/all');
       if (!response.ok) {
@@ -13,6 +17,10 @@ export async function fetchBreeds() {
   }
 
 export async function fetchBreedImageAPI(breed){
+    /*  
+      Function that requests image of the specified breed from the breed list.
+      Results are provided as the direct URL string.
+    */
     try {
       const response = await fetch(`https://dog.ceo/api/breed/${breed}/images/random`);
       if (!response.ok) {
