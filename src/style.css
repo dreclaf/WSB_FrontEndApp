@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 97vh;
+    /* background-color: red; */
+    font-family: Ink Free, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/088/475/non_2x/seamless-pattern-of-award-symbol-icon-badge-with-dog-or-cat-paw-print-and-ribbons-pet-show-winner-concept-illustration-vector.jpg");
+  }
+
+  body{
+    background: black;
+  }
+  
+  h1 {
+    color: #440606;
+    margin-bottom: 20px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 1px 0 3px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color:lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .buttonGallerySave{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer,
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  img {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
