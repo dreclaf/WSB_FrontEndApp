@@ -1,5 +1,5 @@
 .container {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
   }
 
   body{
-    background: black;
+    background: rgb(34, 32, 32);
   }
   
   h1 {
@@ -19,6 +19,7 @@
     font-size: 100px;
     font-weight: bold;
     text-shadow: rgb(255, 255, 255) 1px 0 3px;
+    text-align: center;
   }
   
   select {
@@ -29,6 +30,9 @@
     border-radius: 5px;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
   }
   
   button {
@@ -40,7 +44,10 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
   }
+  
   .buttonGallerySave{
     position: absolute;
     top: 20px;
@@ -51,6 +58,22 @@
     font-size: 14px;
     border-radius: 5px;
     cursor: pointer,
+
+  }
+  .buttonGalleryDelete{
+    position: absolute;
+    top: 20px;
+    left: 86px;
+    padding: 3px 5px;
+    background-color: red;
+    color: white;
+    font-size: 6px;
+    border-radius: 5px;
+    cursor: pointer,
+
+  }
+  .buttonGalleryDelete:hover{
+    background-color: rgb(243, 81, 81);
 
   }
   
@@ -70,3 +93,29 @@
     color: #555;
   }
   
+
+  .gallery{
+    margin-left: auto;
+    float:right;
+    width: 10%;
+    align-items: center;
+    overflow-y: auto;
+    max-height: 600px;
+  }
+  .galleryImage{
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .breeds{
+    /* display: flex; */
+    text-align:center;
+    align-items: block;
+    justify-content: center;
+    float:left;
+    width: 89.7%;
+  }
+
+  .image{
+    max-height: 370px;
+  }
